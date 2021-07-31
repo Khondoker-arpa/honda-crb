@@ -19,6 +19,13 @@
     font-weight: 600;
     font-size: 48px;
 }
+.text-h1-body{
+    color: #0A0826;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+}
+
 .p-body{
     color: #E0E0E0;
     font-family: 'Poppins', sans-serif;
