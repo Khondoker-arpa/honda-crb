@@ -1,0 +1,10 @@
+.nav-bg-color{
+    background: #264653;
+}
+.custom-btn{
+    background: #E76F51;
+    color: #ffff;
+    border-radius: 8px;
+    padding: 9px 25px ;
+    border: none;
+}
