@@ -7,6 +7,11 @@
     <title>Honda-CBR</title>
     <!-- Bootstrap Stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
     
     <!-- Custom CSS Stylesheet -->
     <link rel="stylesheet" href="css/style.css">
@@ -14,8 +19,8 @@
 <body>
     <header>
         <!-- Navbar Start -->
-        <nav class="navbar navbar-expand-lg navbar-dark nav-bg-color">
-            <div class="container  ">
+        <nav class="navbar navbar-expand-lg navbar-dark header-bg-color">
+            <div class="container py-3  ">
               <a class="navbar-brand " href="#"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -47,6 +52,50 @@
             </div>
           </nav>
         <!-- Navbar End -->
+
+        <!-- Banner Start -->
+        <section class="header-bg-color" >
+            <div class=" container mx-auto d-flex d-flex justify-content-center d-flex align-items-center py-5  ">
+                <div  >
+                    <p class="p-body py-2">Computer-controlled digital transistorized with electronic advance</p>
+                    <h1 class="h1-body py-2" >Honda CBR 300R</h1>
+                    <p class="p-body py-2" >Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    
+
+                    <!-- Button trigger modal -->
+                   <button type="button" class="btn custom-btn py-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Purchase
+                   </button>
+  
+                   <!-- Modal -->
+           <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel ">Are you sure!</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body ">
+          <P>Give US Your Contact Info!</P>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn custom-btn" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn custom-btn">Save changes</button>
+        </div>
+      </div>
+    </div>
+          </div>
+                </div>
+                <!-- Banner Image -->
+                <div >
+                    <img src="images/header-bike.png" alt="">
+                </div>
+
+
+            </div>
+            
+        </section>
+        <!-- Banner End -->
     </header>
     <main>
 

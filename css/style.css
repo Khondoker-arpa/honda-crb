@@ -1,4 +1,4 @@
-.nav-bg-color{
+.header-bg-color{
     background: #264653;
 }
 .custom-btn{
@@ -7,4 +7,17 @@
     border-radius: 8px;
     padding: 9px 25px ;
     border: none;
+}
+.h1-body{
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+}
+.p-body{
+    color: #E0E0E0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+
 }
