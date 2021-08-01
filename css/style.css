@@ -13,6 +13,18 @@
     color: coral;
     border: 1px solid coral;
 }
+.custom2-btn{
+    background: black;
+    color: white;
+    border-radius: 8px;
+    padding: 9px 25px ;
+    border: none;
+}
+.custom2-btn:hover{
+    background: #FFFF;
+    color: black;
+    border: 1px solid black;
+}
 .h1-body{
     color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
@@ -37,8 +49,10 @@
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
   }
-  .img:hover{
+.img:hover{
     -webkit-filter: grayscale(0);
     filter: none;
-  }
- 
+}
+.i-body{
+    color: coral; 
+}
